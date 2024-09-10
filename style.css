@@ -1,0 +1,44 @@
+
+
+.headerbody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #2A2C2E;
+    border-radius: 8px;
+    height: 3rem;
+    margin: 16px;
+    overflow: hidden;
+}
+
+.headerlogo {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 16px;
+}
+
+.headerlogo img{
+    width: 30px;
+    height: 30px;
+}
+
+.headerlogo p{ 
+    color: white;
+    margin-left: 10px;
+}
+
+.headernav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.headerbuttons {
+    display: flex;
+    flex-grow: 1;
+    background-color: green;
+}
