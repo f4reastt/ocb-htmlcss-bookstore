@@ -1,13 +1,14 @@
-
-
-.headerbody {
+nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center; /* Center the content */
+    align-items: center;
     background-color: #2A2C2E;
     border-radius: 8px;
-    height: 3rem;
-    margin: 16px;
+    height: 5rem;
+    margin: 16px auto; /* Center the nav on the page */
+    max-width: 50%; /* Optional, you can adjust this based on your layout */
     overflow: hidden;
 }
 
@@ -26,7 +27,8 @@
 
 .headerlogo p{ 
     color: white;
-    margin-left: 10px;
+    margin-left: 16px;
+    margin-top: 12px
 }
 
 .headernav {
@@ -37,8 +39,66 @@
     flex-grow: 1;
 }
 
+.headernav a {
+    text-decoration: none;
+    color: grey;
+}
+
+.headernav a.active {
+    color: #F4D867; /* Active link color */
+}
+
 .headerbuttons {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
     flex-grow: 1;
-    background-color: green;
+    gap: 20px;
 }
+
+.bannerbody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;     
+    align-items: center;
+    background-color: #F4CE47;
+    height: 5rem;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.bannerbody p {
+    color: #F4BA30;
+    font-size: 50px; 
+}
+
+.contentbody {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #2A2C2E;
+    height: 1000px;
+    margin-top: 1.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 1000px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+.contentcard {
+
+}
+
